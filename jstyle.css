@@ -10,7 +10,7 @@
 
 body {
     background-color: hsl(240, 50%, 40%);
-    ;
+    
 }
 
 .btn {
@@ -51,18 +51,19 @@ body.correct {
     display: none;
 }
 
-@media (max-width:480px) {
+@media (max-width:495px) {
     .container {
         width: 90vw;
         height: 50vh;
     }
-
+    
     .btn {
-        font-size: 10px;
-        padding: 4px 10px;
+        font-size: 12px;
+        padding: 4px 16px;
     }
 
     #question {
         padding: 10px 0 20px 0;
+        font-size: 14px;
     }
 }
