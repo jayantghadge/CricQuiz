@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Poppins:wght@400;500&family=Special+Elite&display=swap');
 
+
 *,
 *::after,
 *::before {
@@ -10,7 +11,7 @@
 
 body {
     background-color: hsl(240, 50%, 40%);
-    
+
 }
 
 .btn {
@@ -56,7 +57,7 @@ body.correct {
         width: 90vw;
         height: 50vh;
     }
-    
+
     .btn {
         font-size: 12px;
         padding: 4px 16px;
